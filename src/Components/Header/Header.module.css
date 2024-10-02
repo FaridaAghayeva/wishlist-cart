@@ -1,0 +1,35 @@
+.container a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.container span {
+  padding: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+}
+.signIn {
+  background-color: rgb(150, 45, 62);
+  border: 1px solid rgb(150, 45, 62);
+}
+.signIn a {
+  color: white;
+}
+.signUp a {
+  color: black;
+}
+.signUp {
+  border: 1px solid rgb(150, 45, 62);
+}
+
+.cart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: fit-content;
+  gap: 10px;
+}
